@@ -1,0 +1,665 @@
+h1, h2, h3, h4, h5, h6, body, ul, li {
+  padding: 0;
+  margin: 0; }
+
+@font-face {
+  font-family: 'iconfont';
+  src: url("../fonts/iconfont.eot");
+  src: url("../fonts/iconfont.eot?#iefix") format("embedded-opentype"), url("../fonts/iconfont.woff") format("woff"), url("../fonts/iconfont.ttf") format("truetype"), url("../fonts/iconfont.svg#iconfont") format("svg"); }
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale; }
+
+@font-face {
+  font-family: 'da';
+  src: url("../fonts/new-jumo-concept.woff") format("woff"); }
+
+@font-face {
+  font-family: 'xiao';
+  src: url("../fonts/new-jumo-concept (1).woff") format("woff"); }
+
+@font-face {
+  font-family: 'xie';
+  src: url("../fonts/new-jumo-concept.woff") format("woff"); }
+
+#main .section.fp-completely .title {
+  opacity: 1;
+  transform: translate3d(0, 0, 0); }
+
+#main .one {
+  background: url(../imgs/31.jpg) no-repeat;
+  background-size: cover;
+  background-position: 0; }
+  #main .one .logo svg {
+    display: block;
+    width: 202px;
+    height: 38px;
+    position: absolute;
+    top: 31px;
+    left: 31px;
+    z-index: 23233; }
+    #main .one .logo svg path {
+      fill: white; }
+  #main .one .title {
+    width: 900px;
+    height: 150px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    opacity: 0;
+    transform: translate3d(0, -80px, 0);
+    transition: all 1s ease;
+    padding: 0 100px;
+    box-sizing: border-box; }
+    #main .one .title strong {
+      font-size: 105px;
+      color: #fff;
+      text-align: left;
+      line-height: 1; }
+    #main .one .title em {
+      display: block;
+      font-size: 35px;
+      color: #fff;
+      text-align: left;
+      font-family: 'Lora',serif; }
+  #main .one span {
+    display: block;
+    width: 100%;
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    bottom: 40px;
+    padding-bottom: 30px; }
+  #main .one i {
+    display: block;
+    font-size: 28px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 20px;
+    color: #f7f7f7;
+    animation: xia 1s linear infinite; }
+
+@keyframes xia {
+  0% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0); }
+  50% {
+    opacity: 0.2;
+    transform: translate3d(0, -10px, 0); }
+  100% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0); } }
+
+#main .section.fp-completely .inner {
+  opacity: 1;
+  transform: translate3d(0, 0, 0); }
+
+#main .tow {
+  background: url(../imgs/88.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center; }
+  #main .tow .logoa svg {
+    display: block;
+    width: 202px;
+    height: 38px;
+    position: absolute;
+    top: 31px;
+    left: 31px;
+    z-index: 23233; }
+    #main .tow .logoa svg path {
+      fill: #000; }
+  #main .tow .inner {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 0;
+    left: 18%;
+    bottom: 0;
+    margin: auto;
+    padding-top: 50px;
+    box-sizing: border-box;
+    transition: all 1s ease;
+    transform: translate3d(0, 100px, 0);
+    opacity: 0; }
+    #main .tow .inner strong {
+      font-size: 95px;
+      color: #282828;
+      text-align: left;
+      line-height: 1; }
+    #main .tow .inner em {
+      display: block;
+      font-size: 25px;
+      color: #282828;
+      text-align: left; }
+    #main .tow .inner p {
+      color: #282828;
+      margin: 2.5em 0; }
+    #main .tow .inner .anniu {
+      width: 180px;
+      height: 50px;
+      border: 1px solid #939393;
+      border-radius: 5px;
+      padding: 0 30px;
+      box-sizing: border-box;
+      line-height: 50px;
+      overflow: hidden; }
+      #main .tow .inner .anniu .font {
+        width: 100%;
+        height: 100%;
+        text-decoration: none;
+        color: #282828;
+        box-sizing: border-box;
+        position: relative;
+        transition: all .5s ease;
+        cursor: pointer; }
+        #main .tow .inner .anniu .font span {
+          display: block;
+          color: rgba(40, 40, 40, 0.2);
+          font-size: 20px;
+          position: absolute;
+          right: -15px;
+          top: 15px;
+          margin: auto; }
+        #main .tow .inner .anniu .font:hover {
+          transform: translate3d(30px, 0, 0); }
+
+#main .three {
+  background: #000; }
+  #main .three .logo svg {
+    display: block;
+    width: 202px;
+    height: 38px;
+    position: absolute;
+    top: 31px;
+    left: 31px;
+    z-index: 23233; }
+    #main .three .logo svg path {
+      fill: white; }
+  #main .three .yi {
+    width: 37%;
+    height: 100%;
+    float: left; }
+    @media screen and (max-width: 970px) {
+      #main .three .yi {
+        width: 33.3333%; } }
+    @media screen and (max-width: 500px) {
+      #main .three .yi {
+        width: 33.3333%; } }
+    #main .three .yi .first {
+      width: 100%;
+      height: 66%;
+      overflow: hidden;
+      cursor: pointer; }
+      @media screen and (max-width: 970px) {
+        #main .three .yi .first {
+          height: 50%; } }
+      #main .three .yi .first .img {
+        width: 100%;
+        height: 100%;
+        background: url("../imgs/60.jpg") no-repeat;
+        background-size: cover;
+        background-position: center center;
+        transition: all 3s ease; }
+        #main .three .yi .first .img:hover {
+          transform: scale(1.05, 1.05); }
+    #main .three .yi .las {
+      width: 100%;
+      height: 34%;
+      overflow: hidden;
+      cursor: pointer; }
+      @media screen and (max-width: 970px) {
+        #main .three .yi .las {
+          height: 50%; } }
+      #main .three .yi .las .img {
+        width: 100%;
+        height: 100%;
+        background: url("../imgs/32.jpg");
+        background-size: cover;
+        background-position: center center;
+        transition: all 3s ease; }
+        #main .three .yi .las .img:hover {
+          transform: scale(1.05, 1.05); }
+  #main .three .er {
+    width: 26%;
+    height: 100%;
+    float: left; }
+    @media screen and (max-width: 970px) {
+      #main .three .er {
+        width: 33.3333%; } }
+    @media screen and (max-width: 500px) {
+      #main .three .er {
+        width: 33.3333%; } }
+    #main .three .er .first {
+      width: 100%;
+      height: 66%;
+      cursor: pointer;
+      overflow: hidden; }
+      @media screen and (max-width: 970px) {
+        #main .three .er .first {
+          height: 50%; } }
+      #main .three .er .first .img {
+        width: 100%;
+        height: 100%;
+        background: url("../imgs/33.jpg");
+        background-size: cover;
+        background-position: 100% 100%;
+        transition: all 3s ease; }
+        #main .three .er .first .img:hover {
+          transform: scale(1.05, 1.05); }
+    #main .three .er .las {
+      width: 100%;
+      height: 34%;
+      cursor: pointer;
+      overflow: hidden; }
+      @media screen and (max-width: 970px) {
+        #main .three .er .las {
+          height: 50%; } }
+      #main .three .er .las .img {
+        width: 100%;
+        height: 100%;
+        background: url("../imgs/50.jpg");
+        background-size: cover;
+        background-position: 100% 100%;
+        transition: all 3s ease; }
+        #main .three .er .las .img:hover {
+          transform: scale(1.05, 1.05); }
+  #main .three .san {
+    width: 37%;
+    height: 100%;
+    float: left; }
+    @media screen and (max-width: 970px) {
+      #main .three .san {
+        width: 33.3333%; } }
+    @media screen and (max-width: 500px) {
+      #main .three .san {
+        width: 33.3333%; } }
+    #main .three .san .first {
+      width: 100%;
+      height: 34%;
+      cursor: pointer;
+      overflow: hidden; }
+      @media screen and (max-width: 970px) {
+        #main .three .san .first {
+          height: 50%; } }
+      #main .three .san .first .img {
+        width: 100%;
+        height: 100%;
+        background: url("../imgs/64.jpg");
+        background-size: cover;
+        background-position: center center;
+        transition: all 3s ease; }
+        #main .three .san .first .img:hover {
+          transform: scale(1.05, 1.05); }
+    #main .three .san .las {
+      width: 100%;
+      height: 66%;
+      cursor: pointer;
+      overflow: hidden; }
+      @media screen and (max-width: 970px) {
+        #main .three .san .las {
+          height: 50%; } }
+      #main .three .san .las .img {
+        width: 100%;
+        height: 100%;
+        background: url("../imgs/51.jpg");
+        background-size: cover;
+        background-position: center center;
+        transition: all 3s ease; }
+        #main .three .san .las .img:hover {
+          transform: scale(1.05, 1.05); }
+
+#main .section.fp-completely .first .img .title {
+  opacity: 1;
+  transform: translate3d(0, 0, 0); }
+
+#main .section.fp-completely .las .img .title {
+  opacity: 1;
+  transform: translate3d(0, 0, 0); }
+
+#main .four {
+  background: red; }
+  #main .four .logo svg {
+    display: block;
+    width: 202px;
+    height: 38px;
+    position: absolute;
+    top: 31px;
+    left: 31px;
+    z-index: 23233; }
+    #main .four .logo svg path {
+      fill: white; }
+  #main .four .first {
+    width: 100%;
+    height: 50%;
+    background: #72ff3a; }
+    #main .four .first .img {
+      width: 100%;
+      height: 100%;
+      background: url(../imgs/47.jpg) no-repeat;
+      background-size: cover;
+      background-position: center center;
+      position: relative;
+      transition: all 3s ease; }
+      #main .four .first .img:hover {
+        transform: scale(1.05, 1.05); }
+      #main .four .first .img .title {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 15%;
+        margin: auto;
+        padding: 20px 0;
+        opacity: 0;
+        transform: translate3d(0, -50px, 0);
+        transition: all 1s ease; }
+        #main .four .first .img .title h2 {
+          color: #fff;
+          line-height: 30px; }
+          #main .four .first .img .title h2 strong {
+            display: block;
+            font-size: 3.657em;
+            line-height: 1;
+            text-transform: uppercase;
+            letter-spacing: .05em;
+            color: #fff; }
+          #main .four .first .img .title h2 em {
+            display: block;
+            font-family: 'Lora',serif;
+            font-size: 1.343em;
+            font-weight: normal;
+            float: left;
+            text-transform: lowercase;
+            /*  line-height: 1.3;*/
+            margin-right: 25px; }
+        #main .four .first .img .title .anniu {
+          width: 180px;
+          height: 50px;
+          border: 1px solid #636363;
+          border-radius: 5px;
+          padding: 0 40px;
+          box-sizing: border-box;
+          line-height: 50px;
+          overflow: hidden;
+          margin-top: 20%; }
+          #main .four .first .img .title .anniu .font {
+            width: 100%;
+            height: 100%;
+            text-decoration: none;
+            color: #fff;
+            box-sizing: border-box;
+            position: relative;
+            transition: all .5s ease;
+            cursor: pointer; }
+            #main .four .first .img .title .anniu .font span {
+              display: block;
+              color: rgba(247, 247, 247, 0.2);
+              font-size: 20px;
+              position: absolute;
+              right: -35px;
+              top: 15px;
+              margin: auto; }
+            #main .four .first .img .title .anniu .font:hover {
+              transform: translate3d(20px, 0, 0); }
+  #main .four .las {
+    width: 100%;
+    height: 50%; }
+    #main .four .las .img {
+      width: 100%;
+      height: 100%;
+      background: url(../imgs/49.jpg) no-repeat;
+      background-size: cover;
+      background-position: center center;
+      transition: all 3s ease;
+      position: relative; }
+      #main .four .las .img:hover {
+        transform: scale(1.05, 1.05); }
+      #main .four .las .img .title {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 15%;
+        margin: auto;
+        padding: 20px 0;
+        transform: translate3d(0, -50px, 0);
+        transition: all 1s ease;
+        opacity: 0; }
+        #main .four .las .img .title h2 {
+          color: #282828;
+          line-height: 30px; }
+          #main .four .las .img .title h2 strong {
+            display: block;
+            font-size: 3.657em;
+            line-height: 1;
+            text-transform: uppercase;
+            letter-spacing: .05em;
+            color: #282828; }
+          #main .four .las .img .title h2 em {
+            display: block;
+            font-family: 'Lora',serif;
+            font-size: 1.343em;
+            font-weight: normal;
+            float: left;
+            text-transform: lowercase;
+            /*  line-height: 1.3;*/
+            margin-right: 25px;
+            color: #282828; }
+        #main .four .las .img .title .anniu {
+          width: 180px;
+          height: 50px;
+          border: 1px solid rgba(40, 40, 40, 0.2);
+          border-radius: 5px;
+          padding: 0 40px;
+          box-sizing: border-box;
+          line-height: 50px;
+          overflow: hidden;
+          margin-top: 20%; }
+          #main .four .las .img .title .anniu .font {
+            width: 100%;
+            height: 100%;
+            text-decoration: none;
+            color: #4D4D4C;
+            box-sizing: border-box;
+            position: relative;
+            transition: all .5s ease;
+            cursor: pointer; }
+            #main .four .las .img .title .anniu .font span {
+              display: block;
+              color: rgba(40, 40, 40, 0.2);
+              font-size: 20px;
+              position: absolute;
+              right: -35px;
+              top: 15px;
+              margin: auto; }
+            #main .four .las .img .title .anniu .font:hover {
+              transform: translate3d(20px, 0, 0); }
+
+#main .section.fp-completely .bottom .content {
+  opacity: 1;
+  transform: translate3d(0, 0, 0); }
+
+#main .five {
+  background: url(../imgs/45.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative; }
+  #main .five .logo svg {
+    display: block;
+    width: 202px;
+    height: 38px;
+    position: absolute;
+    top: 31px;
+    left: 31px;
+    z-index: 23233; }
+    #main .five .logo svg path {
+      fill: white; }
+  #main .five .bottom {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    margin: auto;
+    height: 170px; }
+    #main .five .bottom .content {
+      max-width: 900px;
+      height: 100%;
+      position: relative;
+      left: 0;
+      right: 0;
+      margin: auto;
+      opacity: 0;
+      transform: translate3d(0, 60px, 0);
+      transition: all 1s ease; }
+      #main .five .bottom .content .left {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        margin: auto; }
+        #main .five .bottom .content .left h6 {
+          font-size: 1.2em;
+          color: #f7f7f7; }
+        #main .five .bottom .content .left p {
+          display: block;
+          margin-top: .3em;
+          color: #f7f7f7;
+          font-size: 1em; }
+      #main .five .bottom .content .cen {
+        width: 200px;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto; }
+        #main .five .bottom .content .cen h6 {
+          font-size: 1.2em;
+          color: #f7f7f7; }
+        #main .five .bottom .content .cen p {
+          display: block;
+          margin-top: .3em;
+          color: #f7f7f7;
+          font-size: 1em; }
+      #main .five .bottom .content .right {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto; }
+        #main .five .bottom .content .right .anniu {
+          width: 180px;
+          height: 50px;
+          border: 1px solid #636363;
+          border-radius: 5px;
+          padding: 0 40px;
+          box-sizing: border-box;
+          line-height: 50px;
+          overflow: hidden; }
+          #main .five .bottom .content .right .anniu .font {
+            width: 100%;
+            height: 100%;
+            text-decoration: none;
+            color: #fff;
+            box-sizing: border-box;
+            position: relative;
+            transition: all .5s ease;
+            cursor: pointer; }
+            #main .five .bottom .content .right .anniu .font span {
+              display: block;
+              color: rgba(247, 247, 247, 0.2);
+              font-size: 20px;
+              position: absolute;
+              right: -35px;
+              top: 15px;
+              margin: auto; }
+            #main .five .bottom .content .right .anniu .font:hover {
+              transform: translate3d(20px, 0, 0); }
+
+#main .section.fp-completely .container {
+  transform: translate3d(0, 0, 0);
+  opacity: 1; }
+
+#main .six {
+  overflow: hidden;
+  background: #000;
+  padding: 200px 0;
+  box-sizing: border-box; }
+  #main .six .logo svg {
+    display: block;
+    width: 202px;
+    height: 38px;
+    position: absolute;
+    top: 31px;
+    left: 31px;
+    z-index: 23233; }
+    #main .six .logo svg path {
+      fill: white; }
+  #main .six .container {
+    padding: 0 10px;
+    max-width: 900px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    padding: 100px 0;
+    box-sizing: border-box;
+    opacity: 0;
+    transition: all 1s ease;
+    transform: translate3d(0, 50px, 0);
+    overflow: hidden; }
+    #main .six .container h5 {
+      font-size: 1em;
+      margin-bottom: 2em;
+      font-weight: 700;
+      font-style: normal;
+      color: #f7f7f7;
+      display: block; }
+    #main .six .container p {
+      margin: 2em 0;
+      display: block;
+      color: #f7f7f7; }
+      #main .six .container p strong {
+        color: #f7f7f7;
+        font-size: 1em; }
+    #main .six .container .text-right {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+      padding: 100px 0;
+      text-align: left; }
+      #main .six .container .text-right h5 {
+        font-size: 1.2em;
+        margin-bottom: 2em;
+        font-weight: 700;
+        font-style: normal;
+        color: #f7f7f7;
+        display: block; }
+      #main .six .container .text-right p {
+        margin: 1em 0;
+        display: block;
+        color: #f7f7f7; }
+        #main .six .container .text-right p strong {
+          color: #f7f7f7;
+          font-size: 1em; }
+      #main .six .container .text-right .icon span {
+        float: left;
+        display: block;
+        font-size: 30px;
+        color: #fff;
+        margin-left: 30px;
+        box-sizing: border-box;
+        margin-top: 30px; }
